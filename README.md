@@ -7,6 +7,8 @@ HugoとBootStrapの初心者がHugoのテーマ「doshirouto3」を書きまし�
 [Download](https://github.com/twbs/bootstrap/releases/download/v4.0.0/bootstrap-4.0.0-dist.zip)
 0. jquery(jquery-3.3.1.min.js)  
 [Download](https://jquery.com/download/)
+0. Font Awesome(font-awesome-4.7.0.zip)
+[Download](https://fontawesome.com/v4.7.0/)
 
 ## 書いておくべきconfig.toml
 ```
