@@ -1,5 +1,10 @@
 {{ define "main" }}
-{{ $paginator := .Paginate (where .Data.Pages "Type" "page" ) 5 }}
+{{ if not .IsPage }}
+{{ if not .IsHome }}
+<h2>{{ .Title }} について書いていること</h2>
+{{ end }}
+{{ end }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" .Site.Params.enumerate ) 5 }}
 {{ range $paginator.Pages }}
 {{ .Render "list/item" }}
 {{ end }}
