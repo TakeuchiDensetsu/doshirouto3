@@ -17,8 +17,6 @@ body {
 h2 {
 	font-size: 1.1em;
 	position: relative;
-	color: white;
-	background: #9279d89a;
 	line-height: 1.4;
 	padding: 0.5em 0.5em 0.5em 2em;
 }
@@ -33,8 +31,6 @@ h2:before {/*疑似要素*/
 h3 {
 	font-size: 1.1em;
 	position: relative;
-	color: white;
-	background: #9279d89a;
 	line-height: 1.4;
 	padding: 0.5em 0.5em 0.5em 2em;
 }
