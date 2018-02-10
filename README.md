@@ -17,6 +17,8 @@ HasCJKLanguage = true
 [taxonomies]
 tag = "tags"
 [params]
+tracking_id = ""
+avatar_url = "/image/profile/avatar.png"
 description = "Site Description"
 copyright = " TakeuchiDensetsu; all rights reserved."
 ```
