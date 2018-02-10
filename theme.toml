@@ -3,16 +3,16 @@
 
 name = "Doshirouto3"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/TakeuchiDensetsu/doshirouto3/blob/master/LICENSE.md"
+description = "BootStrap4のCardを使ったHugoのテーマ"
+homepage = "https://github.com/TakeuchiDensetsu/doshirouto3"
 tags = []
 features = []
 min_version = "0.32.4"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "TakeuchiDensetsu"
+  homepage = "https://www.takeuchi.tk"
 
 # If porting an existing theme
 [original]
