@@ -1,10 +1,11 @@
-</div>
-{{ partial "scripts" . }}
-{{ if .Site.Params.tracking_id }}
+<script src="{{ "/js/jquery-3.3.1.min.js" | relURL }}"></script>
+<script src="{{ "/js/bootstrap.min.js" | relURL }}"></script>
+
+<!--
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '{{ .Site.Params.tracking_id }}']);
+  _gaq.push(['_setAccount', 'UA-112490952-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -16,6 +17,4 @@
   })();
 
 </script>
-{{ end }}
-</body>
-</html>
+-->

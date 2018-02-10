@@ -1,0 +1,11 @@
+<div class="card Profile" style="min-width: 162px;">
+    {{if .Site.Params.avatar_url }}
+    <div style="text-align: center;">
+        <img class="card-img-top ProfileAvatar" src="{{ .Site.Params.avatar_url | relURL }}">
+    </div>
+    {{ end }}
+    <div class="card-body">
+        {{ .Site.Params.description }}
+    </div>
+</div>
+</div>

@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "page" ) 5 }}
+{{ range $paginator.Pages }}
+{{ .Render "list/item" }}
+{{ end }}
+{{ partial "page/pagination" . }}
+{{ end }}
