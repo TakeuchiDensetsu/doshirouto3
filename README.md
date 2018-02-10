@@ -17,6 +17,7 @@ HasCJKLanguage = true
 [taxonomies]
 tag = "tags"
 [params]
+enumerate = "page"
 tracking_id = ""
 avatar_url = "/image/profile/avatar.png"
 description = "Site Description"
