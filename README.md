@@ -35,3 +35,13 @@ copyright = " TakeuchiDensetsu; all rights reserved."
 ```
 enumerateにはlist.htmlで列挙するContentTypeを指定する
 例えば"page"や"post"など
+
+## ショートコード
+Fluid Imageな<img>タグを吐く
+{{< img-fluid src="/image/source.png" alt="AlternateText" >}}
+
+Overflow Imageな<img>タグを吐く
+{{< img-overflow src="/image/source.png" alt="AlternateText" >}}
+
+Fluid ImageでLightboxが効いた<img>タグを吐く
+{{< img-lightbox src="/image/source.png" group="LightboxImageGroup" alt="AlternateText" >}}
