@@ -9,6 +9,8 @@ HugoとBootStrapの初心者がHugoのテーマ「doshirouto3」を書きまし�
 [Download](https://jquery.com/download/)
 0. Font Awesome(font-awesome-4.7.0.zip)  
 [Download](https://fontawesome.com/v4.7.0/)
+0. highlight.js(highlight.js 9.12.0)  
+[Download](https://highlightjs.org/download/)
 
 ## 書いておくべきconfig.toml
 ```
@@ -24,6 +26,12 @@ tracking_id = ""
 avatar_url = "/image/profile/avatar.png"
 description = "Site Description"
 copyright = " TakeuchiDensetsu; all rights reserved."
+[[menu.navbar]]
+    name = "Home"
+    weight = -10
+    pre = "<i class='fa fa-home'></i>"
+    identifier = ""
+    url = "/"
 ```
 enumerateにはlist.htmlで列挙するContentTypeを指定する
 例えば"page"や"post"など
