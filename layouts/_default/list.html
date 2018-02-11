@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ if not .IsPage }}
 {{ if not .IsHome }}
-<h2>{{ .Title }} について書いていること</h2>
+<i class="fa fa-sitemap fa-fw fa-lg"></i> {{ .Title }} について書いていること
 {{ end }}
 {{ end }}
 {{ $paginator := .Paginate (where .Data.Pages "Type" .Site.Params.enumerate ) 5 }}
