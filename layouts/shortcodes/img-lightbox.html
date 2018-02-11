@@ -1,0 +1,5 @@
+<!-- image lightbox -->
+<a href="{{ .Get "src" }}" {{ if (.Get "group") }} data-lightbox="{{ .Get "group" }}"{{else}}data-lightbox="image_lightbox"{{ end }}>
+    <img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} class="img-fluid" />
+</a>
+<!-- image lightbox -->
