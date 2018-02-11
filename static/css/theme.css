@@ -99,6 +99,30 @@ background-color: #9279d89a;
 color: #fff;
 }
 
+/* ShortCode img-overflow.html */
+.image-overflow {
+	overflow: auto;
+}
+
+/* blockquote */
+blockquote {
+	position: relative;
+	padding: .5em .75em;
+	background: #f4f4f4;
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+	box-shadow: 0 7px 10px -5px rgba(0, 0, 0, .1) inset;
+}
+blockquote::after {
+	position: absolute;
+	bottom: -9px;
+	right: 10%;
+	content: '\002702';
+	color: #aaa;
+	font-size: 18px;
+	line-height: 1;
+}
+
 /* KeyTop キーボードの見た目 */
 keytop {
     margin: 0 0.4em;
