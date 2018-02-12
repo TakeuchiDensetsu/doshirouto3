@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ block "title" . }} {{ .Site.Title }} {{ end }}</title>
+<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ if .IsPage }}{{ .Title }}{{ else }}{{ .Title }} について書いていること{{ end }} &middot; {{ .Site.Title }}{{ end }}</title>
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Expires" content="0">
