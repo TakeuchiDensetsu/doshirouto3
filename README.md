@@ -76,3 +76,12 @@ title =  "サイト内を全文検索します"
 +++
 
 ```
+
+## 使い方
+```
+$ hugo new site doshirouto
+$ cd doshirouto/themes/
+$ git clone https://github.com/TakeuchiDensetsu/doshirouto3.git
+$ cd ..
+$ nano config.toml
+```
