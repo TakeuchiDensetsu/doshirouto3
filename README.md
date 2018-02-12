@@ -23,6 +23,7 @@ HasCJKLanguage = true
 [taxonomies]
 tag = "tags"
 [params]
+favicon = ""
 enumerate = "page"
 tracking_id = ""
 avatar_url = "/image/profile/avatar.png"
