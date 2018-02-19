@@ -78,15 +78,9 @@ h5 {
 	line-height: 1.2;
 	padding: 0.5em 0.5em 0.5em 2em;
 }
-<<<<<<< HEAD
 h5:before {/* fa-info-circle */
 	font-family: FontAwesome;
 	content: "\f05a";
-=======
-h5:before {/* fa-info */
-	font-family: FontAwesome;
-	content: "\f129";
->>>>>>> 514e1f8c7ab21f64bf4963d517adb03d52074306
 	position: absolute;
 	left : 0.5em;
 }
@@ -100,11 +94,7 @@ h6 {
 }
 h6:before {/* fa-lightbulb */
 	font-family: FontAwesome;
-<<<<<<< HEAD
 	content: "\f0eb";
-=======
-	content: "\foeb";
->>>>>>> 514e1f8c7ab21f64bf4963d517adb03d52074306
 	position: absolute;
 	left : 0.5em;
 }
