@@ -78,9 +78,9 @@ h5 {
 	line-height: 1.2;
 	padding: 0.5em 0.5em 0.5em 2em;
 }
-h5:before {/* fa-info */
+h5:before {/* fa-info-circle */
 	font-family: FontAwesome;
-	content: "\f129";
+	content: "\f05a";
 	position: absolute;
 	left : 0.5em;
 }
