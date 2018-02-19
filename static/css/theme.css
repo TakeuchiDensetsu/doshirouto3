@@ -1,3 +1,7 @@
+* {
+	line-height: 1.7;
+}
+
 body {
 	font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Noto Sans JP", sans-serif;
 }
@@ -9,22 +13,32 @@ body {
 
 }
 
+.card-body p {
+	margin:0.5em 1em;
+}
+
+.card-body table {
+	margin:0.5em 1em;
+}
+
+.card-body a:not(.btn)::before {/* fa-link */
+	font-family: FontAwesome;
+	content: "\f0c1";
+    margin-left: 0.5em;
+    margin-right: 0.1em;
+}
+
 .card-footer-tags-li {
     display: inline-block;
 }
 
 /* H2 */
-h2 {
+h2{
 	font-size: 1.1em;
 	position: relative;
 	line-height: 1.4;
-	padding: 0.5em 0.5em 0.5em 2em;
-}
-h2:before {/*疑似要素*/
-	font-family: FontAwesome;
-	content: "\f058";
-	position: absolute;
-	left : 0.5em; /*左端からのアイコンまでの距離*/
+	padding: 0.5em 0.5em 0.2em 0.5em;
+	border-bottom:3px solid rgba(0, 230, 119, 0.479);
 }
 
 /* H3 */
@@ -32,27 +46,29 @@ h3 {
 	font-size: 1.1em;
 	position: relative;
 	line-height: 1.4;
-	padding: 0.5em 0.5em 0.5em 2em;
+	padding: 0.5em 0.5em 0.5em 1.8em;
+	border-left:5px solid rgba(0, 174, 255, 0.479);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-h3:before {/*疑似要素*/
+h3:before {/* fa-check-circle */
 	font-family: FontAwesome;
-	content: "\f14a";
+	content: "\f058";
 	position: absolute;
-	left : 0.5em; /*左端からのアイコンまでの距離*/
+	left : 0.5em;
 }
 
 /* H4 */
 h4 {
 	font-size: 1em;
 	position: relative;
-	line-height: 1.2;
+	line-height: 1.4;
 	padding: 0.5em 0.5em 0.5em 2em;
 }
-h4:before {/*疑似要素*/
+h4:before {/* fa-search */
 	font-family: FontAwesome;
-	content: "\f058";
+	content: "\f002";
 	position: absolute;
-	left : 0.5em; /*左端からのアイコンまでの距離*/
+	left : 0.5em;
 }
 
 /* H5 */
@@ -62,11 +78,25 @@ h5 {
 	line-height: 1.2;
 	padding: 0.5em 0.5em 0.5em 2em;
 }
-h5:before {/*疑似要素*/
+h5:before {/* fa-info */
 	font-family: FontAwesome;
-	content: "\f14a";
+	content: "\f129";
 	position: absolute;
-	left : 0.5em; /*左端からのアイコンまでの距離*/
+	left : 0.5em;
+}
+
+/* H6 */
+h6 {
+	font-size: 1em;
+	position: relative;
+	line-height: 1.2;
+	padding: 0.5em 0.5em 0.5em 2em;
+}
+h6:before {/* fa-lightbulb */
+	font-family: FontAwesome;
+	content: "\f0eb";
+	position: absolute;
+	left : 0.5em;
 }
 
 /* pagination */
@@ -132,4 +162,16 @@ keytop {
     border-width: 1px 2px 2px 1px;
     background-color: #ffffff;
     font-family: monospace;
+}
+
+/* マーカー */
+/* <span class="marker_pink">桃色の蛍光ペン(細)</span> */
+.marker_lime {
+background: linear-gradient(transparent 60%, #66FFCC 60%);
+}
+.marker_water {
+	background: linear-gradient(transparent 60%, #66ccff 60%);
+}
+.marker_pink {
+	background: linear-gradient(transparent 60%, #ff66ff 60%);
 }
